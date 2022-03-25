@@ -17,7 +17,38 @@ body {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --hover-focus-color: #2196F3;
+    --white-text-color: #ffffff;
 }
+
+/* Первая страница */
+
+/* Герой */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero h1 {
+    color: var(--white-text-color);
+}
+
+button {
+    color: var(--white-text-color);
+    background: var(--hover-focus-color);
+    border-radius: 4px;
+}
+
+/* Преимущества */
+
+.benefits p {
+    color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+
+
+/* вторая страница */
 
 .list {
     list-style: none;
