@@ -44,9 +44,15 @@ button {
     color: var(--secondary-text-color);
 }
 
-/* Чем мы занимаемся */
+/* Наша команда */
 
+.team {
+    background-color: #F5F4FA;
+}
 
+.profession {
+    color: var(--secondary-text-color);
+}
 
 /* вторая страница */
 
