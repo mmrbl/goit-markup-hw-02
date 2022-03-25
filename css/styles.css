@@ -22,6 +22,26 @@ body {
 
 /* Первая страница */
 
+/* Верхняя линия */
+
+.blue-text {
+    color: var(--hover-focus-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.current {
+    color: var(--hover-focus-color);
+}
+
+.contacts {
+    text-decoration: none;
+    color: var(--secondary-text-color)
+}
+
 /* Герой */
 
 .hero {
@@ -65,21 +85,6 @@ button {
     color: var(--hover-focus-color);
 }
 
-/* Верхняя линия */
-
-.blue-text {
-    color: var(--hover-focus-color);
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--primary-text-color);
-}
-
-.contacts {
-    text-decoration: none;
-    color: var(--secondary-text-color)
-}
 
 /* Фильтры */
 
