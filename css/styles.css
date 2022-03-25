@@ -4,4 +4,16 @@
 фон ссылок в main: #F5F4FA
 основной цвет текста(черный): #212121
 второстепенный цвет текста(серый): #757575
+цвет фона футера: #2F303A
+Прозрачность адреса в футере: rgba(0, 0, 0, .6)
 */
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --hover-focus-color: #2196F3;
