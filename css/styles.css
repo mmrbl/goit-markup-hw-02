@@ -8,11 +8,6 @@
 Прозрачность адреса в футере: rgba(255, 255, 255, .6);
 */
 
-body {
-    background-color: #fff;
-    color: var(--primary-text-color);
-}
-
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -20,21 +15,43 @@ body {
     --white-text-color: #ffffff;
 }
 
-.hiden {
-    clip-path: inset(100%);
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
 }
 
 /* Первая страница */
 
 /* Верхняя линия */
 
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
 .blue-text {
     color: var(--hover-focus-color);
 }
 
 nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
     text-decoration: none;
     color: var(--primary-text-color);
+
 }
 
 .current {
@@ -42,6 +59,12 @@ nav a {
 }
 
 .contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
     text-decoration: none;
     color: var(--secondary-text-color)
 }
@@ -53,19 +76,62 @@ nav a {
 }
 
 .hero h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
     color: var(--white-text-color);
 }
 
-button {
+.order-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
     color: var(--white-text-color);
     background: var(--hover-focus-color);
     border-radius: 4px;
 }
 
-/* Преимущества */
+/* Особенности */
+.benefits h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 
 .benefits p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.secondary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Наша команда */
@@ -74,15 +140,28 @@ button {
     background-color: #F5F4FA;
 }
 
+.team h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .profession {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
 }
 
 /* вторая страница */
-
-.list {
-    list-style: none;
-}
 
 .hover-color:hover,
 .hover-color:focus {
@@ -93,6 +172,13 @@ button {
 /* Фильтры */
 
 .filter-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
     background: #F5F4FA;
     border: none;
     border-radius: 4px;
@@ -105,7 +191,21 @@ button {
 
 /* Примеры */
 
+.examples-list h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
 .project-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
 }
 
@@ -116,8 +216,13 @@ footer {
 }
 
 footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
     text-decoration: none;
-    color: #fff;
 }
 
 .footer-mail,
