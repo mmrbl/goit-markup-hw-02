@@ -20,6 +20,10 @@ body {
     --white-text-color: #ffffff;
 }
 
+.hiden {
+    clip-path: inset(100%);
+}
+
 /* Первая страница */
 
 /* Верхняя линия */
