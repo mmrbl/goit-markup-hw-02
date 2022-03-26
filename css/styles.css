@@ -31,7 +31,6 @@ body {
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -43,7 +42,6 @@ body {
 }
 
 nav a {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -59,7 +57,6 @@ nav a {
 }
 
 .contacts {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -76,7 +73,6 @@ nav a {
 }
 
 .hero h1 {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -88,7 +84,6 @@ nav a {
 }
 
 .order-button {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -104,7 +99,6 @@ nav a {
 
 /* Особенности */
 .benefits h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -114,8 +108,6 @@ nav a {
 
 
 .benefits p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -126,7 +118,6 @@ nav a {
 /* Чем мы занимаемся */
 
 .secondary-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -141,7 +132,6 @@ nav a {
 }
 
 .team h3 {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -151,8 +141,6 @@ nav a {
 
 .profession {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -172,7 +160,6 @@ nav a {
 /* Фильтры */
 
 .filter-button {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -192,7 +179,6 @@ nav a {
 /* Примеры */
 
 .examples-list h2 {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -200,8 +186,6 @@ nav a {
 }
 
 .project-type {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
@@ -216,8 +200,6 @@ footer {
 }
 
 footer a {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
