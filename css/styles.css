@@ -33,18 +33,21 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .blue-text {
     color: var(--hover-focus-color);
 }
 
-nav a {
+.pages {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     text-decoration: none;
@@ -59,7 +62,7 @@ nav a {
 .contacts {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     text-decoration: none;
@@ -72,10 +75,10 @@ nav a {
     background-color: #2F303A;
 }
 
-.hero h1 {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -86,7 +89,7 @@ nav a {
 .order-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
@@ -98,18 +101,18 @@ nav a {
 }
 
 /* Особенности */
-.benefits h3 {
+.benefits-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 
-.benefits p {
+.benefits-description {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
@@ -120,7 +123,7 @@ nav a {
 .secondary-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -131,10 +134,10 @@ nav a {
     background-color: #F5F4FA;
 }
 
-.team h3 {
+.teammate {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -142,7 +145,7 @@ nav a {
 .profession {
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -162,32 +165,35 @@ nav a {
 .filter-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 
     background: #F5F4FA;
     border: none;
     border-radius: 4px;
+
+    cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
     background: var(--hover-focus-color);
+    color: var(--white-text-color);
 }
 
 /* Примеры */
 
-.examples-list h2 {
+.example-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .project-type {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
@@ -199,11 +205,34 @@ footer {
     background-color: #2F303A;
 }
 
-footer a {
-    font-size: 14px;
-    line-height: 24px;
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 
+    text-decoration: none;
+    color: var(--white-text-color);
+}
+
+.footer-address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    font-style: normal;
+    text-decoration: none;
+    color: var(--white-text-color);
+}
+
+.footer-mail,
+.footer-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    font-style: normal;
     text-decoration: none;
     color: var(--white-text-color);
 }
