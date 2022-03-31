@@ -23,6 +23,8 @@ body {
 
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Первая страница */
@@ -83,6 +85,9 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--white-text-color);
 }
 
@@ -103,12 +108,23 @@ body {
 }
 
 /* Особенности */
+
+.hiden-title {
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .benefits-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -118,6 +134,9 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Чем мы занимаемся */
@@ -128,6 +147,9 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Наша команда */
@@ -142,6 +164,9 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .profession {
@@ -152,6 +177,9 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* вторая страница */
@@ -194,12 +222,18 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .project-type {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+
+    margin-top: 0;
+    margin-bottom: 0;
 
     color: var(--secondary-text-color);
 }
