@@ -23,8 +23,6 @@ body {
 
 .list {
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* Первая страница */
@@ -85,9 +83,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    margin-top: 0;
-    margin-bottom: 0;
-
     color: var(--white-text-color);
 }
 
@@ -100,31 +95,18 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 
-    padding: 10px 32px;
     color: var(--white-text-color);
     background: var(--hover-focus-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 /* Особенности */
-
-.hiden-title {
-
-
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .benefits-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 
@@ -134,9 +116,6 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* Чем мы занимаемся */
@@ -147,9 +126,6 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* Наша команда */
@@ -164,9 +140,6 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .profession {
@@ -177,9 +150,6 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* вторая страница */
@@ -199,8 +169,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    padding: 6px 22px;
-
     background: #F5F4FA;
     border: none;
     border-radius: 4px;
@@ -212,7 +180,6 @@ body {
 .filter-button:focus {
     background: var(--hover-focus-color);
     color: var(--white-text-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Примеры */
@@ -222,18 +189,12 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .project-type {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 0;
 
     color: var(--secondary-text-color);
 }
